@@ -11,10 +11,10 @@
 		BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */; };
 		BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0554161CC5258F00B608E6 /* FBMyViewController.m */; };
 		BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0554171CC5258F00B608E6 /* FBMyViewController.xib */; };
-		BF05541D1CC528A000B608E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF05541C1CC528A000B608E6 /* Assets.xcassets */; };
 		BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3A1CC5469500C07375 /* FBNavigationView.m */; };
 		BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */; };
 		BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6DE1CC60B7C0040EB47 /* cute.gif */; };
+		BF2FA6E11CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E01CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets */; };
 		BF96E2151CC4F84F00177705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2141CC4F84F00177705 /* main.m */; };
 		BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2171CC4F84F00177705 /* AppDelegate.m */; };
 		BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E21C1CC4F84F00177705 /* Main.storyboard */; };
@@ -55,12 +55,12 @@
 		BF0554151CC5258F00B608E6 /* FBMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBMyViewController.h; path = FirstBlood/My/FBMyViewController.h; sourceTree = SOURCE_ROOT; };
 		BF0554161CC5258F00B608E6 /* FBMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBMyViewController.m; path = FirstBlood/My/FBMyViewController.m; sourceTree = SOURCE_ROOT; };
 		BF0554171CC5258F00B608E6 /* FBMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FBMyViewController.xib; path = FirstBlood/My/FBMyViewController.xib; sourceTree = SOURCE_ROOT; };
-		BF05541C1CC528A000B608E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF232C391CC5469500C07375 /* FBNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNavigationView.h; sourceTree = "<group>"; };
 		BF232C3A1CC5469500C07375 /* FBNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNavigationView.m; sourceTree = "<group>"; };
 		BF232C3D1CC5EBD700C07375 /* FBHttpsServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHttpsServer.h; sourceTree = "<group>"; };
 		BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHttpsServer.m; sourceTree = "<group>"; };
-		BF2FA6DE1CC60B7C0040EB47 /* cute.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cute.gif; path = ../PrivateEnjoy/cute.gif; sourceTree = "<group>"; };
+		BF2FA6DE1CC60B7C0040EB47 /* cute.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cute.gif; path = PrivateEnjoy/cute.gif; sourceTree = "<group>"; };
+		BF2FA6E01CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 17-13-42-368.xcassets"; sourceTree = "<group>"; };
 		BF96E2101CC4F84F00177705 /* FirstBlood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstBlood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96E2141CC4F84F00177705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF96E2161CC4F84F00177705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,7 +175,8 @@
 		BF96E2131CC4F84F00177705 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF05541C1CC528A000B608E6 /* Assets.xcassets */,
+				BF2FA6E01CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets */,
+				BF2FA6DE1CC60B7C0040EB47 /* cute.gif */,
 				BF96E21C1CC4F84F00177705 /* Main.storyboard */,
 				BF96E2241CC4F84F00177705 /* LaunchScreen.storyboard */,
 				BF96E2271CC4F84F00177705 /* Info.plist */,
@@ -239,7 +240,6 @@
 		BF96E2591CC5052300177705 /* SeekRestaurant */ = {
 			isa = PBXGroup;
 			children = (
-				BF2FA6DE1CC60B7C0040EB47 /* cute.gif */,
 				BF96E2691CC5095400177705 /* FBSeekRestaurantViewController.h */,
 				BF96E26A1CC5095400177705 /* FBSeekRestaurantViewController.m */,
 				BF96E26B1CC5095400177705 /* FBSeekRestaurantViewController.xib */,
@@ -365,7 +365,7 @@
 				BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */,
 				BF96E26D1CC5095400177705 /* FBSeekRestaurantViewController.xib in Resources */,
 				BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */,
-				BF05541D1CC528A000B608E6 /* Assets.xcassets in Resources */,
+				BF2FA6E11CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets in Resources */,
 				BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */,
 				BF96E2721CC5097400177705 /* FBRecommendViewController.xib in Resources */,
 			);
@@ -545,7 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Documents/小码哥 - 练习/FirstBlood/FirstBlood/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Downloads/gitHub clone/FirstBlood/FirstBlood/PrefixHeader.pch";
 				INFOPLIST_FILE = FirstBlood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
@@ -558,7 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Documents/小码哥 - 练习/FirstBlood/FirstBlood/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Downloads/gitHub clone/FirstBlood/FirstBlood/PrefixHeader.pch";
 				INFOPLIST_FILE = FirstBlood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
