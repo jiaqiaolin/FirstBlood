@@ -24,9 +24,8 @@
 //    [self setNavBar];
     
     [self setNavBarWithAlpha:.5 barTintColor:[UIColor whiteColor] tintColor:[UIColor yellowColor]];
+
     
-    NSLog(@"LJQ V1");
-    NSLog(@"LZJ V1");
 }
 
 #pragma mark - private methods
