@@ -545,9 +545,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/lan/Desktop/项目/FirstBlood/FirstBlood/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Downloads/gitHub clone/FirstBlood/FirstBlood/PrefixHeader.pch";
 				INFOPLIST_FILE = FirstBlood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -559,9 +558,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/lan/Desktop/项目/FirstBlood/FirstBlood/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/linjiaqiao/Downloads/gitHub clone/FirstBlood/FirstBlood/PrefixHeader.pch";
 				INFOPLIST_FILE = FirstBlood/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.FirstBlood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
