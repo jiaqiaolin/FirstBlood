@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 - (void)setNavBarWithAlpha:(CGFloat)alpha barTintColor:(UIColor *)barTintColor tintColor:(UIColor *)tintColor
@@ -25,4 +25,5 @@
     FBBaseNavigationController *FBBNC = (FBBaseNavigationController *)self.navigationController;
     [FBBNC setBarAlpha:alpha barTintColor:barTintColor tintColor:tintColor];
 }
+
 @end

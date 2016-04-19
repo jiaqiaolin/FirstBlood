@@ -29,6 +29,8 @@
     self.timer = timer;
     dispatch_resume(timer);
     
+    [self.view setBackgroundColor:[UIColor yellowColor]];
+    
 }
 
 

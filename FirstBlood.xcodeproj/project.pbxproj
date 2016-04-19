@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AC21FBA482C7AB968271412 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE07FD59692060158A5A8B3 /* libPods.a */; };
 		BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */; };
 		BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */; };
 		BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0554161CC5258F00B608E6 /* FBMyViewController.m */; };
 		BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF0554171CC5258F00B608E6 /* FBMyViewController.xib */; };
-		BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3A1CC5469500C07375 /* FBNavigationView.m */; };
 		BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */; };
 		BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6DE1CC60B7C0040EB47 /* cute.gif */; };
 		BF2FA6E11CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E01CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets */; };
+		BF2FA6E41CC654500040EB47 /* FBCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6E31CC654500040EB47 /* FBCarouselView.m */; };
+		BF2FA6E91CC65A620040EB47 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E51CC65A620040EB47 /* 1.jpg */; };
+		BF2FA6EA1CC65A620040EB47 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E61CC65A620040EB47 /* 2.jpg */; };
+		BF2FA6EB1CC65A620040EB47 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E71CC65A620040EB47 /* 3.jpg */; };
+		BF2FA6EC1CC65A620040EB47 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6E81CC65A620040EB47 /* 4.jpg */; };
+		BF2FA6EF1CC670B40040EB47 /* FBRecommendFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6EE1CC670B40040EB47 /* FBRecommendFirstCell.m */; };
+		BF2FA6F21CC670CA0040EB47 /* FBRecommendSecCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6F11CC670CA0040EB47 /* FBRecommendSecCell.m */; };
+		BF2FA6F51CC67D780040EB47 /* FBRecommendFirstCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6F41CC67D780040EB47 /* FBRecommendFirstCellView.m */; };
 		BF96E2151CC4F84F00177705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2141CC4F84F00177705 /* main.m */; };
 		BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2171CC4F84F00177705 /* AppDelegate.m */; };
 		BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E21C1CC4F84F00177705 /* Main.storyboard */; };
@@ -49,18 +57,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE07FD59692060158A5A8B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPrivateEnjoyViewController.h; sourceTree = "<group>"; };
 		BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPrivateEnjoyViewController.m; sourceTree = "<group>"; };
 		BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBPrivateEnjoyViewController.xib; sourceTree = "<group>"; };
 		BF0554151CC5258F00B608E6 /* FBMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBMyViewController.h; path = FirstBlood/My/FBMyViewController.h; sourceTree = SOURCE_ROOT; };
 		BF0554161CC5258F00B608E6 /* FBMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBMyViewController.m; path = FirstBlood/My/FBMyViewController.m; sourceTree = SOURCE_ROOT; };
 		BF0554171CC5258F00B608E6 /* FBMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FBMyViewController.xib; path = FirstBlood/My/FBMyViewController.xib; sourceTree = SOURCE_ROOT; };
-		BF232C391CC5469500C07375 /* FBNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNavigationView.h; sourceTree = "<group>"; };
-		BF232C3A1CC5469500C07375 /* FBNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNavigationView.m; sourceTree = "<group>"; };
 		BF232C3D1CC5EBD700C07375 /* FBHttpsServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHttpsServer.h; sourceTree = "<group>"; };
 		BF232C3E1CC5EBD700C07375 /* FBHttpsServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHttpsServer.m; sourceTree = "<group>"; };
 		BF2FA6DE1CC60B7C0040EB47 /* cute.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cute.gif; path = PrivateEnjoy/cute.gif; sourceTree = "<group>"; };
 		BF2FA6E01CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 17-13-42-368.xcassets"; sourceTree = "<group>"; };
+		BF2FA6E21CC654500040EB47 /* FBCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCarouselView.h; sourceTree = "<group>"; };
+		BF2FA6E31CC654500040EB47 /* FBCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCarouselView.m; sourceTree = "<group>"; };
+		BF2FA6E51CC65A620040EB47 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BF2FA6E61CC65A620040EB47 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BF2FA6E71CC65A620040EB47 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BF2FA6E81CC65A620040EB47 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		BF2FA6ED1CC670B40040EB47 /* FBRecommendFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendFirstCell.h; sourceTree = "<group>"; };
+		BF2FA6EE1CC670B40040EB47 /* FBRecommendFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendFirstCell.m; sourceTree = "<group>"; };
+		BF2FA6F01CC670CA0040EB47 /* FBRecommendSecCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendSecCell.h; sourceTree = "<group>"; };
+		BF2FA6F11CC670CA0040EB47 /* FBRecommendSecCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendSecCell.m; sourceTree = "<group>"; };
+		BF2FA6F31CC67D780040EB47 /* FBRecommendFirstCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendFirstCellView.h; sourceTree = "<group>"; };
+		BF2FA6F41CC67D780040EB47 /* FBRecommendFirstCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendFirstCellView.m; sourceTree = "<group>"; };
 		BF96E2101CC4F84F00177705 /* FirstBlood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstBlood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96E2141CC4F84F00177705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF96E2161CC4F84F00177705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC21FBA482C7AB968271412 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +137,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F7D31CDED103A3EA5C1BDBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE07FD59692060158A5A8B3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF05540F1CC5251200B608E6 /* My */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +172,8 @@
 				BF96E22F1CC4F85000177705 /* FirstBloodTests */,
 				BF96E23A1CC4F85000177705 /* FirstBloodUITests */,
 				BF96E2111CC4F84F00177705 /* Products */,
+				EFF8BE7C81F26729C0EB138B /* Pods */,
+				6F7D31CDED103A3EA5C1BDBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,8 +253,18 @@
 				BF96E26E1CC5097400177705 /* FBRecommendViewController.h */,
 				BF96E26F1CC5097400177705 /* FBRecommendViewController.m */,
 				BF96E2701CC5097400177705 /* FBRecommendViewController.xib */,
-				BF232C391CC5469500C07375 /* FBNavigationView.h */,
-				BF232C3A1CC5469500C07375 /* FBNavigationView.m */,
+				BF2FA6E21CC654500040EB47 /* FBCarouselView.h */,
+				BF2FA6E31CC654500040EB47 /* FBCarouselView.m */,
+				BF2FA6ED1CC670B40040EB47 /* FBRecommendFirstCell.h */,
+				BF2FA6EE1CC670B40040EB47 /* FBRecommendFirstCell.m */,
+				BF2FA6F31CC67D780040EB47 /* FBRecommendFirstCellView.h */,
+				BF2FA6F41CC67D780040EB47 /* FBRecommendFirstCellView.m */,
+				BF2FA6F01CC670CA0040EB47 /* FBRecommendSecCell.h */,
+				BF2FA6F11CC670CA0040EB47 /* FBRecommendSecCell.m */,
+				BF2FA6E51CC65A620040EB47 /* 1.jpg */,
+				BF2FA6E61CC65A620040EB47 /* 2.jpg */,
+				BF2FA6E71CC65A620040EB47 /* 3.jpg */,
+				BF2FA6E81CC65A620040EB47 /* 4.jpg */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -257,6 +299,15 @@
 			path = PrivateEnjoy;
 			sourceTree = "<group>";
 		};
+		EFF8BE7C81F26729C0EB138B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */,
+				ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF96E2401CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBlood" */;
 			buildPhases = (
+				2606FE3659C5A977C9F10221 /* Check Pods Manifest.lock */,
 				BF96E20C1CC4F84F00177705 /* Sources */,
 				BF96E20D1CC4F84F00177705 /* Frameworks */,
 				BF96E20E1CC4F84F00177705 /* Resources */,
+				88BF77B7E73282F6EE579AEC /* Embed Pods Frameworks */,
+				BD8B34A4BCBA41AE07442876 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,6 +418,10 @@
 				BF96E2261CC4F84F00177705 /* LaunchScreen.storyboard in Resources */,
 				BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */,
 				BF96E26D1CC5095400177705 /* FBSeekRestaurantViewController.xib in Resources */,
+				BF2FA6EA1CC65A620040EB47 /* 2.jpg in Resources */,
+				BF2FA6EC1CC65A620040EB47 /* 4.jpg in Resources */,
+				BF2FA6E91CC65A620040EB47 /* 1.jpg in Resources */,
+				BF2FA6EB1CC65A620040EB47 /* 3.jpg in Resources */,
 				BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */,
 				BF2FA6E11CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets in Resources */,
 				BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */,
@@ -387,21 +445,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2606FE3659C5A977C9F10221 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88BF77B7E73282F6EE579AEC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8B34A4BCBA41AE07442876 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF96E20C1CC4F84F00177705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2FA6E41CC654500040EB47 /* FBCarouselView.m in Sources */,
 				BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */,
 				BF96E26C1CC5095400177705 /* FBSeekRestaurantViewController.m in Sources */,
 				BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */,
+				BF2FA6F21CC670CA0040EB47 /* FBRecommendSecCell.m in Sources */,
 				BF96E2151CC4F84F00177705 /* main.m in Sources */,
 				BF96E2211CC4F84F00177705 /* FirstBlood.xcdatamodeld in Sources */,
 				BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */,
+				BF2FA6EF1CC670B40040EB47 /* FBRecommendFirstCell.m in Sources */,
 				BF96E24B1CC4F8B400177705 /* FBBaseViewController.m in Sources */,
 				BF96E2711CC5097400177705 /* FBRecommendViewController.m in Sources */,
 				BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */,
-				BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */,
+				BF2FA6F51CC67D780040EB47 /* FBRecommendFirstCellView.m in Sources */,
 				BF96E2561CC501A500177705 /* FBConstant.m in Sources */,
 				BF96E24E1CC4FA5800177705 /* FBBaseNavigationController.m in Sources */,
 			);
@@ -542,6 +651,7 @@
 		};
 		BF96E2411CC4F85000177705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -555,6 +665,7 @@
 		};
 		BF96E2421CC4F85000177705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
