@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^FBRecommendFirstCellBlock)(NSInteger index);
+
 @interface FBRecommendFirstCell : UITableViewCell
+
+/** 回调点击FBRecommendFirstCellView的index*/
+@property (nonatomic, copy) FBRecommendFirstCellBlock block;
 
 @end

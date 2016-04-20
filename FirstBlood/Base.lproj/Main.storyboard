@@ -8,7 +8,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="rPa-3E-jRo">
             <objects>
-                <tabBarController id="Cfn-E3-kGX" sceneMemberID="viewController">
+                <tabBarController id="Cfn-E3-kGX" customClass="FBTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="6IG-K6-8nd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,11 +95,11 @@
             </objects>
             <point key="canvasLocation" x="-1297.5" y="807.75"/>
         </scene>
-        <!--Item-->
+        <!--我的-->
         <scene sceneID="C1R-x5-CnJ">
             <objects>
                 <navigationController id="REI-to-GAl" customClass="FBBaseNavigationController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="My" selectedImage="MySelected" id="5nw-NV-hEo"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="My" selectedImage="MySelected" id="5nw-NV-hEo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qe2-kq-0Po">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

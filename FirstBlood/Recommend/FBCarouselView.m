@@ -25,7 +25,7 @@
 
 @implementation FBCarouselView
 
-- (_Nonnull instancetype)initWithFrame:(CGRect)frame imageArray:(nonnull NSMutableArray<UIImage*> *)array;
+- (instancetype)initWithFrame:(CGRect)frame imageArray:(NSMutableArray<UIImage*> *)array returnBlock:(carouseViewBlock)block
 {
     if (self = [super initWithFrame:frame])
     {
@@ -45,8 +45,14 @@
             [self.cyclePhotoScrollView addSubview:imageView];
             [imageView setTag:i+100];
             [imageView setBackgroundColor:[UIColor colorWithRed:arc4random()%255/255. green:arc4random()%255/255. blue:arc4random()%255/255. alpha:1.]];
+            if (i == 1)
+            {
+                UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture)];
+                [imageView addGestureRecognizer:tapGesture];
+                [imageView setUserInteractionEnabled:YES];
+            }
+            
         }
-        
         self.currentImageIndex = 0;
         _imageArray = [NSMutableArray arrayWithArray:array];
         [self reloadImageViews];
@@ -57,8 +63,10 @@
         [_pageControl setNumberOfPages:self.imageArray.count];
         
         //默认在主线程开,默认为default mode
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:2. target:self selector:@selector(lunbo) userInfo:nil repeats:YES];
- 
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:5. target:self selector:@selector(lunbo) userInfo:nil repeats:YES];
+        [self setClearsContextBeforeDrawing:NO];
+        [self.cyclePhotoScrollView setClipsToBounds:NO];
+        self.block = block;
         
     }
     return self;
@@ -79,6 +87,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+//    NSLog(@"subViews = %@",scrollView.subviews);
 //    NSLog(@"当前偏移量(didScroll) = %.2f",self.cyclePhotoScrollView.contentOffset.x);
     if (self.cyclePhotoScrollView.contentOffset.x == 0)
     {
@@ -125,7 +134,7 @@
 {
     //延迟2秒后再自动轮播,会有bug.
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2. * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:2. target:self selector:@selector(lunbo) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:5. target:self selector:@selector(lunbo) userInfo:nil repeats:YES];
 //    });
     
 }
@@ -134,9 +143,11 @@
 #pragma mark - private methods
 - (void)reloadImageViews
 {
-    UIImageView *leftImageV = [self viewWithTag:100];
-    UIImageView *middleImageV = [self viewWithTag:101];
-    UIImageView *rightImageV = [self viewWithTag:102];
+    UIImageView *leftImageV = [self viewWithTag:FB_CAROUSEL_VIEW_LEFT_TAG];
+    UIImageView *middleImageV = [self viewWithTag:FB_CAROUSEL_VIEW_MIDDLE_TAG];
+    UIImageView *rightImageV = [self viewWithTag:FB_CAROUSEL_VIEW_RIGHT_TAG];
+
+    
     [leftImageV setImage:[self.imageArray objectAtIndex:(self.currentImageIndex - 1 + self.imageArray.count) % self.imageArray.count]];
     [middleImageV setImage:[self.imageArray objectAtIndex:(self.currentImageIndex + self.imageArray.count) % self.imageArray.count]];
     [rightImageV setImage:[self.imageArray objectAtIndex:(self.currentImageIndex + 1 +self.imageArray.count) % self.imageArray.count]];
@@ -154,6 +165,11 @@
     [self.cyclePhotoScrollView setContentOffset:CGPointMake(self.bounds.size.width * 2, 0) animated:YES];
 //    NSLog(@"%s",__FUNCTION__);
 
+}
+
+- (void)tapGesture
+{
+    self.block(self.currentImageIndex);
 }
 
 @end

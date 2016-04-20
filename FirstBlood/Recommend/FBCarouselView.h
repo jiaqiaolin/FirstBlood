@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^carouseViewBlock)(NSInteger currentIndex);
 @interface FBCarouselView : UIView
-
-- (_Nonnull instancetype)initWithFrame:(CGRect)frame imageArray:(nonnull NSMutableArray<UIImage*> *)array;
+/** block*/
+@property (nonatomic, copy) carouseViewBlock block;
+- (instancetype)initWithFrame:(CGRect)frame imageArray:(NSMutableArray<UIImage*> *)array returnBlock:(carouseViewBlock)block;
 
 @end

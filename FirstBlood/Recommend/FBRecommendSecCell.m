@@ -10,14 +10,28 @@
 
 @implementation FBRecommendSecCell
 
-- (void)awakeFromNib {
-    // Initialization code
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
+    {
+        [self setSelectionStyle:UITableViewCellSelectionStyleNone];
+        _imageV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 10, FB_SCREEN_WIDTH, FB_SCREEN_WIDTH - 64)];
+        [_imageV setBackgroundColor:[UIColor yellowColor]];
+        [self.contentView addSubview:_imageV];        
+      UIImage *newIma =  [self getPartOfImage:[UIImage imageNamed:@"22382_1000_1000.jpg"] rect:CGRectMake(0, 100, 1000, 800)];
+        [_imageV setImage:newIma];
+    }
+    return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+- (UIImage *)getPartOfImage:(UIImage *)img rect:(CGRect)partRect
+{
+    CGImageRef imageRef = img.CGImage;
+    CGImageRef imagePartRef = CGImageCreateWithImageInRect(imageRef, partRect);
+    UIImage *retImg = [UIImage imageWithCGImage:imagePartRef];
+    CGImageRelease(imagePartRef);
+    return retImg;
 }
+
 
 @end

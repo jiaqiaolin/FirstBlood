@@ -43,6 +43,13 @@
     self.navigationBar.tintColor = tintColor;
 }
 
-
-
+/**
+ *  这个方法使navigation controller的子控制器使用自己的- (UIStatusBarStyle)preferredStatusBarStyle 方法
+ *
+ *  @return 在栈顶的VC的status bar style
+ */
+- (UIViewController *)childViewControllerForStatusBarStyle
+{
+    return self.topViewController;
+}
 @end

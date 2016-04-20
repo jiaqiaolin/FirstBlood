@@ -23,6 +23,8 @@
 		BF2FA6EF1CC670B40040EB47 /* FBRecommendFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6EE1CC670B40040EB47 /* FBRecommendFirstCell.m */; };
 		BF2FA6F21CC670CA0040EB47 /* FBRecommendSecCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6F11CC670CA0040EB47 /* FBRecommendSecCell.m */; };
 		BF2FA6F51CC67D780040EB47 /* FBRecommendFirstCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6F41CC67D780040EB47 /* FBRecommendFirstCellView.m */; };
+		BF2FA6F71CC71A7F0040EB47 /* 22382_1000_1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF2FA6F61CC71A7F0040EB47 /* 22382_1000_1000.jpg */; };
+		BF2FA6FA1CC752C70040EB47 /* FBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FA6F91CC752C70040EB47 /* FBTabBarController.m */; };
 		BF96E2151CC4F84F00177705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2141CC4F84F00177705 /* main.m */; };
 		BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E2171CC4F84F00177705 /* AppDelegate.m */; };
 		BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E21C1CC4F84F00177705 /* Main.storyboard */; };
@@ -82,6 +84,9 @@
 		BF2FA6F11CC670CA0040EB47 /* FBRecommendSecCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendSecCell.m; sourceTree = "<group>"; };
 		BF2FA6F31CC67D780040EB47 /* FBRecommendFirstCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendFirstCellView.h; sourceTree = "<group>"; };
 		BF2FA6F41CC67D780040EB47 /* FBRecommendFirstCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendFirstCellView.m; sourceTree = "<group>"; };
+		BF2FA6F61CC71A7F0040EB47 /* 22382_1000_1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22382_1000_1000.jpg; sourceTree = "<group>"; };
+		BF2FA6F81CC752C70040EB47 /* FBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTabBarController.h; sourceTree = "<group>"; };
+		BF2FA6F91CC752C70040EB47 /* FBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTabBarController.m; sourceTree = "<group>"; };
 		BF96E2101CC4F84F00177705 /* FirstBlood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstBlood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96E2141CC4F84F00177705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF96E2161CC4F84F00177705 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -243,6 +248,8 @@
 				BF96E24A1CC4F8B400177705 /* FBBaseViewController.m */,
 				BF96E24C1CC4FA5800177705 /* FBBaseNavigationController.h */,
 				BF96E24D1CC4FA5800177705 /* FBBaseNavigationController.m */,
+				BF2FA6F81CC752C70040EB47 /* FBTabBarController.h */,
+				BF2FA6F91CC752C70040EB47 /* FBTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -265,6 +272,7 @@
 				BF2FA6E61CC65A620040EB47 /* 2.jpg */,
 				BF2FA6E71CC65A620040EB47 /* 3.jpg */,
 				BF2FA6E81CC65A620040EB47 /* 4.jpg */,
+				BF2FA6F61CC71A7F0040EB47 /* 22382_1000_1000.jpg */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -417,6 +425,7 @@
 				BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */,
 				BF96E2261CC4F84F00177705 /* LaunchScreen.storyboard in Resources */,
 				BF2FA6DF1CC60B7C0040EB47 /* cute.gif in Resources */,
+				BF2FA6F71CC71A7F0040EB47 /* 22382_1000_1000.jpg in Resources */,
 				BF96E26D1CC5095400177705 /* FBSeekRestaurantViewController.xib in Resources */,
 				BF2FA6EA1CC65A620040EB47 /* 2.jpg in Resources */,
 				BF2FA6EC1CC65A620040EB47 /* 4.jpg in Resources */,
@@ -505,6 +514,7 @@
 				BF2FA6F21CC670CA0040EB47 /* FBRecommendSecCell.m in Sources */,
 				BF96E2151CC4F84F00177705 /* main.m in Sources */,
 				BF96E2211CC4F84F00177705 /* FirstBlood.xcdatamodeld in Sources */,
+				BF2FA6FA1CC752C70040EB47 /* FBTabBarController.m in Sources */,
 				BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */,
 				BF2FA6EF1CC670B40040EB47 /* FBRecommendFirstCell.m in Sources */,
 				BF96E24B1CC4F8B400177705 /* FBBaseViewController.m in Sources */,

@@ -10,4 +10,7 @@
 
 @interface FBRecommendSecCell : UITableViewCell
 
+/** 图片*/
+@property (nonatomic, strong) UIImageView *imageV;
+
 @end
