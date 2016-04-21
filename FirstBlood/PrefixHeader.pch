@@ -19,6 +19,7 @@
 
 //通用
 #define FB_RANDOM_COLOR [UIColor colorWithRed:arc4random()%256/256. green:arc4random()%256/256. blue:arc4random()%256/256. alpha:1.]
+<<<<<<< Updated upstream
 #define FB_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define FB_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
@@ -33,4 +34,8 @@
 
 
 
+=======
+#define FB_SCREEN_WIDTH  [[UIScreen mainScreen] bounds].size.width
+#define FB_SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+>>>>>>> Stashed changes
 #endif /* PrefixHeader_pch */

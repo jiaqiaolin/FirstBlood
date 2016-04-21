@@ -1,5 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+<<<<<<< Updated upstream
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDWebImage" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDWebImage"
+=======
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SDWebImage" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage"
+>>>>>>> Stashed changes
 OTHER_LDFLAGS = -framework "ImageIO"
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

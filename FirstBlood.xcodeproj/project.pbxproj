@@ -7,7 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		8AC21FBA482C7AB968271412 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE07FD59692060158A5A8B3 /* libPods.a */; };
+=======
+		3FFDB2361CC70D8000C3D359 /* FBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2341CC70D8000C3D359 /* FBTableViewCell.m */; };
+		3FFDB2371CC70D8000C3D359 /* FBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFDB2351CC70D8000C3D359 /* FBTableViewCell.xib */; };
+		3FFDB2701CC7108100C3D359 /* FB10896.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB23B1CC7108100C3D359 /* FB10896.m */; };
+		3FFDB2711CC7108100C3D359 /* FB13941.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB23D1CC7108100C3D359 /* FB13941.m */; };
+		3FFDB2721CC7108100C3D359 /* FB14982.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB23F1CC7108100C3D359 /* FB14982.m */; };
+		3FFDB2731CC7108100C3D359 /* FB1613492.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2411CC7108100C3D359 /* FB1613492.m */; };
+		3FFDB2741CC7108100C3D359 /* FB1620158.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2431CC7108100C3D359 /* FB1620158.m */; };
+		3FFDB2751CC7108100C3D359 /* FB1623717.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2451CC7108100C3D359 /* FB1623717.m */; };
+		3FFDB2761CC7108100C3D359 /* FB1625139.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2471CC7108100C3D359 /* FB1625139.m */; };
+		3FFDB2771CC7108100C3D359 /* FB1625305.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2491CC7108100C3D359 /* FB1625305.m */; };
+		3FFDB2781CC7108100C3D359 /* FB1631889.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB24B1CC7108100C3D359 /* FB1631889.m */; };
+		3FFDB2791CC7108100C3D359 /* FB1673037.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB24D1CC7108100C3D359 /* FB1673037.m */; };
+		3FFDB27A1CC7108100C3D359 /* FB1676673.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB24F1CC7108100C3D359 /* FB1676673.m */; };
+		3FFDB27B1CC7108100C3D359 /* FB18173.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2511CC7108100C3D359 /* FB18173.m */; };
+		3FFDB27C1CC7108100C3D359 /* FB5002300.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2531CC7108100C3D359 /* FB5002300.m */; };
+		3FFDB27D1CC7108100C3D359 /* FB5030474.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2551CC7108100C3D359 /* FB5030474.m */; };
+		3FFDB27E1CC7108100C3D359 /* FB5036110.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2571CC7108100C3D359 /* FB5036110.m */; };
+		3FFDB27F1CC7108100C3D359 /* FB5037355.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2591CC7108100C3D359 /* FB5037355.m */; };
+		3FFDB2801CC7108100C3D359 /* FB5038892.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB25B1CC7108100C3D359 /* FB5038892.m */; };
+		3FFDB2811CC7108100C3D359 /* FB5039551.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB25D1CC7108100C3D359 /* FB5039551.m */; };
+		3FFDB2821CC7108100C3D359 /* FB5041011.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB25F1CC7108100C3D359 /* FB5041011.m */; };
+		3FFDB2831CC7108100C3D359 /* FB5087531.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2611CC7108100C3D359 /* FB5087531.m */; };
+		3FFDB2841CC7108100C3D359 /* FBAreas.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2631CC7108100C3D359 /* FBAreas.m */; };
+		3FFDB2851CC7108100C3D359 /* FBBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2651CC7108100C3D359 /* FBBaseClass.m */; };
+		3FFDB2861CC7108100C3D359 /* FBCanBuy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2671CC7108100C3D359 /* FBCanBuy.m */; };
+		3FFDB2871CC7108100C3D359 /* FBCounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB2691CC7108100C3D359 /* FBCounts.m */; };
+		3FFDB2881CC7108100C3D359 /* FBData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB26B1CC7108100C3D359 /* FBData.m */; };
+		3FFDB2891CC7108100C3D359 /* FBList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB26D1CC7108100C3D359 /* FBList.m */; };
+		3FFDB28A1CC7108100C3D359 /* FBTenants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDB26F1CC7108100C3D359 /* FBTenants.m */; };
+		4E9F460A827B3DA1B3A13180 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F7D1FFE52A0FC0112CF09 /* libPods.a */; };
+>>>>>>> Stashed changes
 		BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */; };
 		BF05540E1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */; };
 		BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0554161CC5258F00B608E6 /* FBMyViewController.m */; };
@@ -59,9 +92,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE07FD59692060158A5A8B3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		032F7D1FFE52A0FC0112CF09 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFDB2331CC70D8000C3D359 /* FBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTableViewCell.h; sourceTree = "<group>"; };
+		3FFDB2341CC70D8000C3D359 /* FBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTableViewCell.m; sourceTree = "<group>"; };
+		3FFDB2351CC70D8000C3D359 /* FBTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBTableViewCell.xib; sourceTree = "<group>"; };
+		3FFDB2391CC7108100C3D359 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		3FFDB23A1CC7108100C3D359 /* FB10896.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB10896.h; sourceTree = "<group>"; };
+		3FFDB23B1CC7108100C3D359 /* FB10896.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB10896.m; sourceTree = "<group>"; };
+		3FFDB23C1CC7108100C3D359 /* FB13941.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB13941.h; sourceTree = "<group>"; };
+		3FFDB23D1CC7108100C3D359 /* FB13941.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB13941.m; sourceTree = "<group>"; };
+		3FFDB23E1CC7108100C3D359 /* FB14982.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB14982.h; sourceTree = "<group>"; };
+		3FFDB23F1CC7108100C3D359 /* FB14982.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB14982.m; sourceTree = "<group>"; };
+		3FFDB2401CC7108100C3D359 /* FB1613492.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1613492.h; sourceTree = "<group>"; };
+		3FFDB2411CC7108100C3D359 /* FB1613492.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1613492.m; sourceTree = "<group>"; };
+		3FFDB2421CC7108100C3D359 /* FB1620158.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1620158.h; sourceTree = "<group>"; };
+		3FFDB2431CC7108100C3D359 /* FB1620158.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1620158.m; sourceTree = "<group>"; };
+		3FFDB2441CC7108100C3D359 /* FB1623717.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1623717.h; sourceTree = "<group>"; };
+		3FFDB2451CC7108100C3D359 /* FB1623717.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1623717.m; sourceTree = "<group>"; };
+		3FFDB2461CC7108100C3D359 /* FB1625139.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1625139.h; sourceTree = "<group>"; };
+		3FFDB2471CC7108100C3D359 /* FB1625139.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1625139.m; sourceTree = "<group>"; };
+		3FFDB2481CC7108100C3D359 /* FB1625305.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1625305.h; sourceTree = "<group>"; };
+		3FFDB2491CC7108100C3D359 /* FB1625305.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1625305.m; sourceTree = "<group>"; };
+		3FFDB24A1CC7108100C3D359 /* FB1631889.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1631889.h; sourceTree = "<group>"; };
+		3FFDB24B1CC7108100C3D359 /* FB1631889.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1631889.m; sourceTree = "<group>"; };
+		3FFDB24C1CC7108100C3D359 /* FB1673037.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1673037.h; sourceTree = "<group>"; };
+		3FFDB24D1CC7108100C3D359 /* FB1673037.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1673037.m; sourceTree = "<group>"; };
+		3FFDB24E1CC7108100C3D359 /* FB1676673.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB1676673.h; sourceTree = "<group>"; };
+		3FFDB24F1CC7108100C3D359 /* FB1676673.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB1676673.m; sourceTree = "<group>"; };
+		3FFDB2501CC7108100C3D359 /* FB18173.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB18173.h; sourceTree = "<group>"; };
+		3FFDB2511CC7108100C3D359 /* FB18173.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB18173.m; sourceTree = "<group>"; };
+		3FFDB2521CC7108100C3D359 /* FB5002300.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5002300.h; sourceTree = "<group>"; };
+		3FFDB2531CC7108100C3D359 /* FB5002300.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5002300.m; sourceTree = "<group>"; };
+		3FFDB2541CC7108100C3D359 /* FB5030474.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5030474.h; sourceTree = "<group>"; };
+		3FFDB2551CC7108100C3D359 /* FB5030474.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5030474.m; sourceTree = "<group>"; };
+		3FFDB2561CC7108100C3D359 /* FB5036110.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5036110.h; sourceTree = "<group>"; };
+		3FFDB2571CC7108100C3D359 /* FB5036110.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5036110.m; sourceTree = "<group>"; };
+		3FFDB2581CC7108100C3D359 /* FB5037355.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5037355.h; sourceTree = "<group>"; };
+		3FFDB2591CC7108100C3D359 /* FB5037355.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5037355.m; sourceTree = "<group>"; };
+		3FFDB25A1CC7108100C3D359 /* FB5038892.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5038892.h; sourceTree = "<group>"; };
+		3FFDB25B1CC7108100C3D359 /* FB5038892.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5038892.m; sourceTree = "<group>"; };
+		3FFDB25C1CC7108100C3D359 /* FB5039551.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5039551.h; sourceTree = "<group>"; };
+		3FFDB25D1CC7108100C3D359 /* FB5039551.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5039551.m; sourceTree = "<group>"; };
+		3FFDB25E1CC7108100C3D359 /* FB5041011.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5041011.h; sourceTree = "<group>"; };
+		3FFDB25F1CC7108100C3D359 /* FB5041011.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5041011.m; sourceTree = "<group>"; };
+		3FFDB2601CC7108100C3D359 /* FB5087531.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FB5087531.h; sourceTree = "<group>"; };
+		3FFDB2611CC7108100C3D359 /* FB5087531.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FB5087531.m; sourceTree = "<group>"; };
+		3FFDB2621CC7108100C3D359 /* FBAreas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAreas.h; sourceTree = "<group>"; };
+		3FFDB2631CC7108100C3D359 /* FBAreas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAreas.m; sourceTree = "<group>"; };
+		3FFDB2641CC7108100C3D359 /* FBBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBaseClass.h; sourceTree = "<group>"; };
+		3FFDB2651CC7108100C3D359 /* FBBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBaseClass.m; sourceTree = "<group>"; };
+		3FFDB2661CC7108100C3D359 /* FBCanBuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCanBuy.h; sourceTree = "<group>"; };
+		3FFDB2671CC7108100C3D359 /* FBCanBuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCanBuy.m; sourceTree = "<group>"; };
+		3FFDB2681CC7108100C3D359 /* FBCounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCounts.h; sourceTree = "<group>"; };
+		3FFDB2691CC7108100C3D359 /* FBCounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCounts.m; sourceTree = "<group>"; };
+		3FFDB26A1CC7108100C3D359 /* FBData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBData.h; sourceTree = "<group>"; };
+		3FFDB26B1CC7108100C3D359 /* FBData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBData.m; sourceTree = "<group>"; };
+		3FFDB26C1CC7108100C3D359 /* FBList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBList.h; sourceTree = "<group>"; };
+		3FFDB26D1CC7108100C3D359 /* FBList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBList.m; sourceTree = "<group>"; };
+		3FFDB26E1CC7108100C3D359 /* FBTenants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTenants.h; sourceTree = "<group>"; };
+		3FFDB26F1CC7108100C3D359 /* FBTenants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTenants.m; sourceTree = "<group>"; };
+		49DDE78DEACD90C4DF17092E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPrivateEnjoyViewController.h; sourceTree = "<group>"; };
 		BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBPrivateEnjoyViewController.m; sourceTree = "<group>"; };
 		BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBPrivateEnjoyViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +210,7 @@
 		BF96E26E1CC5097400177705 /* FBRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRecommendViewController.h; sourceTree = "<group>"; };
 		BF96E26F1CC5097400177705 /* FBRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRecommendViewController.m; sourceTree = "<group>"; };
 		BF96E2701CC5097400177705 /* FBRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBRecommendViewController.xib; sourceTree = "<group>"; };
+		FF6E616CE469D02D89EFF1F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +218,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				8AC21FBA482C7AB968271412 /* libPods.a in Frameworks */,
+=======
+				4E9F460A827B3DA1B3A13180 /* libPods.a in Frameworks */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,10 +243,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< Updated upstream
 		6F7D31CDED103A3EA5C1BDBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5AE07FD59692060158A5A8B3 /* libPods.a */,
+=======
+		3FFDB2121CC662BF00C3D359 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */,
+				BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */,
+				BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FFDB2131CC6769E00C3D359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FFDB2331CC70D8000C3D359 /* FBTableViewCell.h */,
+				3FFDB2341CC70D8000C3D359 /* FBTableViewCell.m */,
+				3FFDB2351CC70D8000C3D359 /* FBTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3FFDB2141CC676A200C3D359 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FFDB2381CC7108100C3D359 /* FoodModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3FFDB2381CC7108100C3D359 /* FoodModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FFDB2391CC7108100C3D359 /* DataModels.h */,
+				3FFDB23A1CC7108100C3D359 /* FB10896.h */,
+				3FFDB23B1CC7108100C3D359 /* FB10896.m */,
+				3FFDB23C1CC7108100C3D359 /* FB13941.h */,
+				3FFDB23D1CC7108100C3D359 /* FB13941.m */,
+				3FFDB23E1CC7108100C3D359 /* FB14982.h */,
+				3FFDB23F1CC7108100C3D359 /* FB14982.m */,
+				3FFDB2401CC7108100C3D359 /* FB1613492.h */,
+				3FFDB2411CC7108100C3D359 /* FB1613492.m */,
+				3FFDB2421CC7108100C3D359 /* FB1620158.h */,
+				3FFDB2431CC7108100C3D359 /* FB1620158.m */,
+				3FFDB2441CC7108100C3D359 /* FB1623717.h */,
+				3FFDB2451CC7108100C3D359 /* FB1623717.m */,
+				3FFDB2461CC7108100C3D359 /* FB1625139.h */,
+				3FFDB2471CC7108100C3D359 /* FB1625139.m */,
+				3FFDB2481CC7108100C3D359 /* FB1625305.h */,
+				3FFDB2491CC7108100C3D359 /* FB1625305.m */,
+				3FFDB24A1CC7108100C3D359 /* FB1631889.h */,
+				3FFDB24B1CC7108100C3D359 /* FB1631889.m */,
+				3FFDB24C1CC7108100C3D359 /* FB1673037.h */,
+				3FFDB24D1CC7108100C3D359 /* FB1673037.m */,
+				3FFDB24E1CC7108100C3D359 /* FB1676673.h */,
+				3FFDB24F1CC7108100C3D359 /* FB1676673.m */,
+				3FFDB2501CC7108100C3D359 /* FB18173.h */,
+				3FFDB2511CC7108100C3D359 /* FB18173.m */,
+				3FFDB2521CC7108100C3D359 /* FB5002300.h */,
+				3FFDB2531CC7108100C3D359 /* FB5002300.m */,
+				3FFDB2541CC7108100C3D359 /* FB5030474.h */,
+				3FFDB2551CC7108100C3D359 /* FB5030474.m */,
+				3FFDB2561CC7108100C3D359 /* FB5036110.h */,
+				3FFDB2571CC7108100C3D359 /* FB5036110.m */,
+				3FFDB2581CC7108100C3D359 /* FB5037355.h */,
+				3FFDB2591CC7108100C3D359 /* FB5037355.m */,
+				3FFDB25A1CC7108100C3D359 /* FB5038892.h */,
+				3FFDB25B1CC7108100C3D359 /* FB5038892.m */,
+				3FFDB25C1CC7108100C3D359 /* FB5039551.h */,
+				3FFDB25D1CC7108100C3D359 /* FB5039551.m */,
+				3FFDB25E1CC7108100C3D359 /* FB5041011.h */,
+				3FFDB25F1CC7108100C3D359 /* FB5041011.m */,
+				3FFDB2601CC7108100C3D359 /* FB5087531.h */,
+				3FFDB2611CC7108100C3D359 /* FB5087531.m */,
+				3FFDB2621CC7108100C3D359 /* FBAreas.h */,
+				3FFDB2631CC7108100C3D359 /* FBAreas.m */,
+				3FFDB2641CC7108100C3D359 /* FBBaseClass.h */,
+				3FFDB2651CC7108100C3D359 /* FBBaseClass.m */,
+				3FFDB2661CC7108100C3D359 /* FBCanBuy.h */,
+				3FFDB2671CC7108100C3D359 /* FBCanBuy.m */,
+				3FFDB2681CC7108100C3D359 /* FBCounts.h */,
+				3FFDB2691CC7108100C3D359 /* FBCounts.m */,
+				3FFDB26A1CC7108100C3D359 /* FBData.h */,
+				3FFDB26B1CC7108100C3D359 /* FBData.m */,
+				3FFDB26C1CC7108100C3D359 /* FBList.h */,
+				3FFDB26D1CC7108100C3D359 /* FBList.m */,
+				3FFDB26E1CC7108100C3D359 /* FBTenants.h */,
+				3FFDB26F1CC7108100C3D359 /* FBTenants.m */,
+			);
+			path = FoodModel;
+			sourceTree = "<group>";
+		};
+		9DC5EA890C56759ADC52BE1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032F7D1FFE52A0FC0112CF09 /* libPods.a */,
+>>>>>>> Stashed changes
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,8 +375,13 @@
 				BF96E22F1CC4F85000177705 /* FirstBloodTests */,
 				BF96E23A1CC4F85000177705 /* FirstBloodUITests */,
 				BF96E2111CC4F84F00177705 /* Products */,
+<<<<<<< Updated upstream
 				EFF8BE7C81F26729C0EB138B /* Pods */,
 				6F7D31CDED103A3EA5C1BDBD /* Frameworks */,
+=======
+				C55713D87C4A0CA89B947BE1 /* Pods */,
+				9DC5EA890C56759ADC52BE1F /* Frameworks */,
+>>>>>>> Stashed changes
 			);
 			sourceTree = "<group>";
 		};
@@ -300,18 +503,26 @@
 		BF96E2641CC5059500177705 /* PrivateEnjoy */ = {
 			isa = PBXGroup;
 			children = (
-				BF05540A1CC5249100B608E6 /* FBPrivateEnjoyViewController.h */,
-				BF05540B1CC5249100B608E6 /* FBPrivateEnjoyViewController.m */,
-				BF05540C1CC5249100B608E6 /* FBPrivateEnjoyViewController.xib */,
+				3FFDB2141CC676A200C3D359 /* Model */,
+				3FFDB2131CC6769E00C3D359 /* View */,
+				3FFDB2121CC662BF00C3D359 /* Controllers */,
 			);
 			path = PrivateEnjoy;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		EFF8BE7C81F26729C0EB138B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */,
 				ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */,
+=======
+		C55713D87C4A0CA89B947BE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49DDE78DEACD90C4DF17092E /* Pods.debug.xcconfig */,
+				FF6E616CE469D02D89EFF1F4 /* Pods.release.xcconfig */,
+>>>>>>> Stashed changes
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -323,12 +534,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF96E2401CC4F85000177705 /* Build configuration list for PBXNativeTarget "FirstBlood" */;
 			buildPhases = (
+<<<<<<< Updated upstream
 				2606FE3659C5A977C9F10221 /* Check Pods Manifest.lock */,
 				BF96E20C1CC4F84F00177705 /* Sources */,
 				BF96E20D1CC4F84F00177705 /* Frameworks */,
 				BF96E20E1CC4F84F00177705 /* Resources */,
 				88BF77B7E73282F6EE579AEC /* Embed Pods Frameworks */,
 				BD8B34A4BCBA41AE07442876 /* Copy Pods Resources */,
+=======
+				E04183C6102D74664737639F /* Check Pods Manifest.lock */,
+				BF96E20C1CC4F84F00177705 /* Sources */,
+				BF96E20D1CC4F84F00177705 /* Frameworks */,
+				BF96E20E1CC4F84F00177705 /* Resources */,
+				BDCA489934F372E2973EDBB0 /* Embed Pods Frameworks */,
+				2BA4C605AE7664A8507F98E2 /* Copy Pods Resources */,
+>>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
@@ -432,6 +652,7 @@
 				BF2FA6E91CC65A620040EB47 /* 1.jpg in Resources */,
 				BF2FA6EB1CC65A620040EB47 /* 3.jpg in Resources */,
 				BF96E21E1CC4F84F00177705 /* Main.storyboard in Resources */,
+				3FFDB2371CC70D8000C3D359 /* FBTableViewCell.xib in Resources */,
 				BF2FA6E11CC62E5A0040EB47 /* Assets 17-13-42-368.xcassets in Resources */,
 				BF0554191CC5258F00B608E6 /* FBMyViewController.xib in Resources */,
 				BF96E2721CC5097400177705 /* FBRecommendViewController.xib in Resources */,
@@ -455,22 +676,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< Updated upstream
 		2606FE3659C5A977C9F10221 /* Check Pods Manifest.lock */ = {
+=======
+		2BA4C605AE7664A8507F98E2 /* Copy Pods Resources */ = {
+>>>>>>> Stashed changes
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< Updated upstream
 			name = "Check Pods Manifest.lock";
+=======
+			name = "Copy Pods Resources";
+>>>>>>> Stashed changes
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< Updated upstream
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		88BF77B7E73282F6EE579AEC /* Embed Pods Frameworks */ = {
+=======
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCA489934F372E2973EDBB0 /* Embed Pods Frameworks */ = {
+>>>>>>> Stashed changes
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,19 +721,31 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< Updated upstream
 		BD8B34A4BCBA41AE07442876 /* Copy Pods Resources */ = {
+=======
+		E04183C6102D74664737639F /* Check Pods Manifest.lock */ = {
+>>>>>>> Stashed changes
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< Updated upstream
 			name = "Copy Pods Resources";
+=======
+			name = "Check Pods Manifest.lock";
+>>>>>>> Stashed changes
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< Updated upstream
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+=======
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+>>>>>>> Stashed changes
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,13 +755,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				BF2FA6E41CC654500040EB47 /* FBCarouselView.m in Sources */,
+=======
+				3FFDB2821CC7108100C3D359 /* FB5041011.m in Sources */,
+				3FFDB27C1CC7108100C3D359 /* FB5002300.m in Sources */,
+				3FFDB2871CC7108100C3D359 /* FBCounts.m in Sources */,
+				3FFDB2801CC7108100C3D359 /* FB5038892.m in Sources */,
+>>>>>>> Stashed changes
 				BF96E2181CC4F84F00177705 /* AppDelegate.m in Sources */,
+				3FFDB27D1CC7108100C3D359 /* FB5030474.m in Sources */,
 				BF96E26C1CC5095400177705 /* FBSeekRestaurantViewController.m in Sources */,
+				3FFDB2811CC7108100C3D359 /* FB5039551.m in Sources */,
+				3FFDB2831CC7108100C3D359 /* FB5087531.m in Sources */,
+				3FFDB28A1CC7108100C3D359 /* FBTenants.m in Sources */,
+				3FFDB2851CC7108100C3D359 /* FBBaseClass.m in Sources */,
+				3FFDB2841CC7108100C3D359 /* FBAreas.m in Sources */,
 				BF232C3F1CC5EBD700C07375 /* FBHttpsServer.m in Sources */,
 				BF2FA6F21CC670CA0040EB47 /* FBRecommendSecCell.m in Sources */,
 				BF96E2151CC4F84F00177705 /* main.m in Sources */,
+				3FFDB2881CC7108100C3D359 /* FBData.m in Sources */,
+				3FFDB2711CC7108100C3D359 /* FB13941.m in Sources */,
+				3FFDB2861CC7108100C3D359 /* FBCanBuy.m in Sources */,
+				3FFDB2741CC7108100C3D359 /* FB1620158.m in Sources */,
+				3FFDB27E1CC7108100C3D359 /* FB5036110.m in Sources */,
+				3FFDB2701CC7108100C3D359 /* FB10896.m in Sources */,
+				3FFDB2761CC7108100C3D359 /* FB1625139.m in Sources */,
+				3FFDB27B1CC7108100C3D359 /* FB18173.m in Sources */,
+				3FFDB2731CC7108100C3D359 /* FB1613492.m in Sources */,
 				BF96E2211CC4F84F00177705 /* FirstBlood.xcdatamodeld in Sources */,
+<<<<<<< Updated upstream
 				BF2FA6FA1CC752C70040EB47 /* FBTabBarController.m in Sources */,
 				BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */,
 				BF2FA6EF1CC670B40040EB47 /* FBRecommendFirstCell.m in Sources */,
@@ -521,8 +792,24 @@
 				BF96E2711CC5097400177705 /* FBRecommendViewController.m in Sources */,
 				BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */,
 				BF2FA6F51CC67D780040EB47 /* FBRecommendFirstCellView.m in Sources */,
+=======
+				3FFDB2721CC7108100C3D359 /* FB14982.m in Sources */,
+				3FFDB2771CC7108100C3D359 /* FB1625305.m in Sources */,
+				BF0554181CC5258F00B608E6 /* FBMyViewController.m in Sources */,
+				3FFDB2751CC7108100C3D359 /* FB1623717.m in Sources */,
+				3FFDB2791CC7108100C3D359 /* FB1673037.m in Sources */,
+				3FFDB27A1CC7108100C3D359 /* FB1676673.m in Sources */,
+				BF96E24B1CC4F8B400177705 /* FBBaseViewController.m in Sources */,
+				BF96E2711CC5097400177705 /* FBRecommendViewController.m in Sources */,
+				BF05540D1CC5249100B608E6 /* FBPrivateEnjoyViewController.m in Sources */,
+				3FFDB2781CC7108100C3D359 /* FB1631889.m in Sources */,
+				3FFDB27F1CC7108100C3D359 /* FB5037355.m in Sources */,
+				BF232C3B1CC5469500C07375 /* FBNavigationView.m in Sources */,
+>>>>>>> Stashed changes
 				BF96E2561CC501A500177705 /* FBConstant.m in Sources */,
+				3FFDB2361CC70D8000C3D359 /* FBTableViewCell.m in Sources */,
 				BF96E24E1CC4FA5800177705 /* FBBaseNavigationController.m in Sources */,
+				3FFDB2891CC7108100C3D359 /* FBList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +948,11 @@
 		};
 		BF96E2411CC4F85000177705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< Updated upstream
 			baseConfigurationReference = 0ADF5CE1A9ECF69F0ECB2CF1 /* Pods.debug.xcconfig */;
+=======
+			baseConfigurationReference = 49DDE78DEACD90C4DF17092E /* Pods.debug.xcconfig */;
+>>>>>>> Stashed changes
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -675,7 +966,11 @@
 		};
 		BF96E2421CC4F85000177705 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< Updated upstream
 			baseConfigurationReference = ADEF076F8C37A3A5919B151E /* Pods.release.xcconfig */;
+=======
+			baseConfigurationReference = FF6E616CE469D02D89EFF1F4 /* Pods.release.xcconfig */;
+>>>>>>> Stashed changes
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
