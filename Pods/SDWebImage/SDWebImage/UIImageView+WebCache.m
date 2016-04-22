@@ -44,7 +44,7 @@ static char TAG_ACTIVITY_SHOW;
 - (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock {
     [self sd_cancelCurrentImageLoad];
     objc_setAssociatedObject(self, &imageURLKey, url, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-
+    NSLog(@"options = %ld",options);
     if (!(options & SDWebImageDelayPlaceholder)) {
         dispatch_main_async_safe(^{
             self.image = placeholder;
@@ -67,18 +67,26 @@ static char TAG_ACTIVITY_SHOW;
                 if (image && (options & SDWebImageAvoidAutoSetImage) && completedBlock)
                 {
                     completedBlock(image, error, cacheType, url);
+//                    NSLog(@"啊哈哈哈哈");
                     return;
                 }
                 else if (image) {
                     wself.image = image;
+//                    NSLog(@"来找我呀~~");
+                    //
+//                    UIImage *newIma =  [self getPartOfImage:image rect:CGRectMake(0, 100, 1000, 800)];
+//                    wself.image = newIma;
+                    //
                     [wself setNeedsLayout];
                 } else {
+//                    NSLog(@"初次??????");
                     if ((options & SDWebImageDelayPlaceholder)) {
                         wself.image = placeholder;
                         [wself setNeedsLayout];
                     }
                 }
                 if (completedBlock && finished) {
+//                    NSLog(@"上一个不是初次了!!");
                     completedBlock(image, error, cacheType, url);
                 }
             });
@@ -93,6 +101,15 @@ static char TAG_ACTIVITY_SHOW;
             }
         });
     }
+}
+
+- (UIImage *)getPartOfImage:(UIImage *)img rect:(CGRect)partRect
+{
+    CGImageRef imageRef = img.CGImage;
+    CGImageRef imagePartRef = CGImageCreateWithImageInRect(imageRef, partRect);
+    UIImage *retImg = [UIImage imageWithCGImage:imagePartRef];
+    CGImageRelease(imagePartRef);
+    return retImg;
 }
 
 - (void)sd_setImageWithPreviousCachedImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options progress:(SDWebImageDownloaderProgressBlock)progressBlock completed:(SDWebImageCompletionBlock)completedBlock {

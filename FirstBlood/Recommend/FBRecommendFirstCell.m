@@ -18,16 +18,6 @@
 
 @implementation FBRecommendFirstCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
-    {
-        
-    }
-    return self;
-}
-
-
 - (void)layoutSubviews
 {
     [super layoutSubviews];
@@ -37,12 +27,9 @@
 
 - (void)tapGesture:(UITapGestureRecognizer *)tapGesture
 {
-
    NSInteger index = [self.scrollView.subviews indexOfObject:tapGesture.view];
     self.block(index);
-    
 }
-
 
 - (UIScrollView *)scrollView
 {

@@ -23,7 +23,14 @@
     }
     return self;
 }
-
+/**
+ *  切割图片方法
+ *
+ *  @param img      需要切割的图片
+ *  @param partRect 需要留下的矩形位置
+ *
+ *  @return 切割后的图片
+ */
 - (UIImage *)getPartOfImage:(UIImage *)img rect:(CGRect)partRect
 {
     CGImageRef imageRef = img.CGImage;
